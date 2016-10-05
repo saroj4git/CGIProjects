@@ -10,6 +10,20 @@ using namespace std;
 ImageData *g_pInImage = NULL, *g_pOutImage = NULL;
 KernelData *g_pKernel = NULL;
 
+
+KernelData *CreateGaussianKernel(int iT, int iS, int iP){ //Theta, Sigma , Period
+	
+	//Todo: Calculate the Gaussian kernel
+	
+	int kSize = (4*iS + 1);
+	
+	int x1, x2;  //this will be the x' and y' given in the question.
+	
+	
+	
+	
+}
+
 void DisplayInput() {
 
 	GLView::SetImageToDisplay(*g_pInImage);
